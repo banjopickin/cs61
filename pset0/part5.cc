@@ -9,7 +9,6 @@ char* mystrstr(const char* s1, const char* s2) {
     	return nullptr;
     }
     int i=0;
-    int j=0;
     while(i<len_s1){
     	int j = 0;
     	while(j<len_s2 && s1[i+j]==s2[j]){
